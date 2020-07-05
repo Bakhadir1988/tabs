@@ -17,6 +17,10 @@ body {
     background-color: #46a1de;
 }
 
+.tabs {
+    margin-top: 50px;
+}
+
 .tabs_head {
     display: flex;
     justify-content: space-between;
@@ -100,26 +104,26 @@ body {
 
 
 /* left */
-.top .tabs_wrapper {
+.left .tabs_wrapper {
     display: flex;
 }
-.top {
+.left {
     display: flex;
 }
-.top .tabs_head {
+.left .tabs_head {
     flex-direction: column;
     flex: 0 0 20%;
 }
 
-.top .tabs_body {
+.left .tabs_body {
     flex: 0 0 80%;
 }
 
-.top .tabs_item {
+.left .tabs_item {
     width: 100%;
     padding: 0;
 }
 
 .tabs {
-    margin-top: 50px;
+    margin-left: 50px;
 }
